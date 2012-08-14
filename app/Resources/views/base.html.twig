@@ -2,12 +2,18 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Welcome!{% endblock %} | Grupeo</title>
+        <link href="{{asset('bundles/frontend/css/base.css')}}" rel="stylesheet" type="text/css" />
         {% block stylesheets %}{% endblock %}
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+    	<header></header>
+    	<p>ESTE ES EL TEMPLATE BASE</p>
+    	<div id="contenido">
+	        {% block body %}{% endblock %}
+	        {% block javascripts %}{% endblock %}
+	    </div>
+        <footer></footer>
     </body>
 </html>

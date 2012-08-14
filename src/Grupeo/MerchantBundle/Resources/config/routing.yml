@@ -1,0 +1,3 @@
+MerchantBundle_homepage:
+    pattern:  /merchant
+    defaults: { _controller: MerchantBundle:Default:index }

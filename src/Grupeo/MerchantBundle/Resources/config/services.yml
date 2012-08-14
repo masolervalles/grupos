@@ -1,0 +1,7 @@
+parameters:
+#    merchant.example.class: Grupeo\MerchantBundle\Example
+
+services:
+#    merchant.example:
+#        class: %merchant.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
